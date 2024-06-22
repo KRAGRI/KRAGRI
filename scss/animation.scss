@@ -1,0 +1,136 @@
+.link__animation {
+  opacity: 0;
+  transform: translateY(-60%);
+  transition: transform 1.2s, opacity 2s;
+}
+
+.link__animation-1 {
+  transition-delay: 0.2s;
+}
+.link__animation-2 {
+  transition-delay: 0.4s;
+}
+.link__animation-3 {
+  transition-delay: 0.6s;
+}
+.link__animation-4 {
+  transition-delay: 0.8s;
+}
+.link__animation-5 {
+  transition-delay: 1s;
+}
+.link__animation-6 {
+  transition-delay: 1.3s;
+}
+
+.preview__title-animation {
+  opacity: 0;
+  transform: translateX(-30%);
+  transition: transform 2s, opacity 2s;
+}
+
+.preview__text-animation {
+  opacity: 0;
+  transform: translateX(-30%);
+  transition: transform 2s, opacity 2s;
+  transition-delay: 0.2s;
+}
+
+.point-animation {
+  opacity: 0;
+  transform: translateX(-30%);
+  transition: transform 1.5s, opacity 2s;
+  transition-delay: 0.6s;
+}
+
+.point-animation-1 {
+  transition-delay: 0.8s;
+}
+.point-animation-2 {
+  transition-delay: 1s;
+}
+
+.preview__btns-animation {
+  opacity: 0;
+  transform: translateY(60%);
+  transition: transform 1.2s, opacity 2s;
+  transition-delay: 1.4s;
+}
+
+.preview__program-animation {
+  opacity: 0;
+  transform: translateY(60%);
+  transition: transform 1.2s, opacity 2s;
+  transition-delay: 1.6s;
+}
+
+.preview__places-animation {
+  opacity: 0;
+  transform: scale(0);
+  transition: transform 1.6s, opacity 2s;
+  transition-delay: 1s;
+}
+
+.preview__img-animation {
+  opacity: 0;
+  right: -15%;
+  transition: right 2s, opacity 2s;
+  transition-delay: 0.2s;
+}
+
+@media (max-width: 865px) {
+  .preview__img-animation {
+    right: 0;
+  }
+}
+
+.preview__mentor-animation {
+  opacity: 0;
+  right: -20%;
+  transition: right 2s, opacity 2s;
+  transition-delay: 0.4s;
+}
+
+.left-animation {
+  opacity: 0;
+  transform: translateX(-30%);
+  transition: transform 1s, opacity 1.5s;
+}
+
+.right-animation {
+  opacity: 0;
+  transform: translateX(30%);
+  transition: transform 1s, opacity 1.5s;
+}
+
+.botton-small-animation {
+  opacity: 0;
+  transform: translateY(15%);
+  transition: transform 1s, opacity 1.5s;
+}
+
+.left-small-animation {
+  opacity: 0;
+  transform: translateX(-15%);
+  transition: transform 1s, opacity 1.5s;
+}
+
+.right-small-animation {
+  opacity: 0;
+  transform: translateX(15%);
+  transition: transform 1s, opacity 1.5s;
+}
+
+.faq__animation {
+  opacity: 0;
+  transform: translateY(-50%);
+  transition: transform 1.2s, opacity 2s;
+}
+
+.animation-show {
+  right: 0;
+  opacity: 1;
+  transform: translateX(0);
+  transform: translateY(0);
+  transform: scale(1);
+}
